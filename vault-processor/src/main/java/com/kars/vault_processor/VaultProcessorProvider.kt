@@ -1,4 +1,4 @@
-package com.example.vault_processor
+package com.kars.vault_processor
 
 import com.google.devtools.ksp.processing.SymbolProcessor
 import com.google.devtools.ksp.processing.SymbolProcessorEnvironment
@@ -12,7 +12,7 @@ import com.google.devtools.ksp.processing.SymbolProcessorProvider
  * of [VaultProcessor] which handles the actual code generation.
  *
  * The processor generates type-safe DataStore preference wrappers for data classes
- * annotated with [@VaultSchema][com.example.vault_annotations.VaultSchema].
+ * annotated with [@VaultSchema][com.kars.vault_annotations.VaultSchema].
  */
 class VaultProcessorProvider: SymbolProcessorProvider {
     override fun create(environment: SymbolProcessorEnvironment): SymbolProcessor {

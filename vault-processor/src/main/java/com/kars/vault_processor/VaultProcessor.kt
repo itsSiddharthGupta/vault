@@ -1,7 +1,7 @@
-package com.example.vault_processor
+package com.kars.vault_processor
 
-import com.example.vault_annotations.VaultItem
-import com.example.vault_annotations.VaultSchema
+import com.kars.vault_annotations.VaultItem
+import com.kars.vault_annotations.VaultSchema
 import com.google.devtools.ksp.KspExperimental
 import com.google.devtools.ksp.getAnnotationsByType
 import com.google.devtools.ksp.processing.CodeGenerator

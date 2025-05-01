@@ -1,4 +1,4 @@
-package com.example.vault_annotations
+package com.kars.vault_annotations
 
 /**
  * Marks a data class as a schema for generating type-safe DataStore preference wrappers.

@@ -1,4 +1,4 @@
-package com.example.vault_annotations
+package com.kars.vault_annotations
 
 /**
  * Marks a property in a [@VaultSchema][VaultSchema]-annotated data class as a preference item.

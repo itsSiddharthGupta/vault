@@ -1,7 +1,7 @@
 package com.example.vault.examples
 
-import com.example.vault_annotations.VaultSchema
-import com.example.vault_annotations.VaultItem
+import com.kars.vault_annotations.VaultSchema
+import com.kars.vault_annotations.VaultItem
 
 /**
  * Example of a data class annotated with [VaultSchema] and [VaultItem] annotations

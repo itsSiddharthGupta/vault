@@ -41,8 +41,8 @@ dependencies {
 ### 1. Define your data class with `@VaultSchema` and `@VaultItem` annotations
 
 ```kotlin
-import com.example.vault_annotations.VaultSchema
-import com.example.vault_annotations.VaultItem
+import com.kars.vault_annotations.VaultSchema
+import com.kars.vault_annotations.VaultItem
 
 @VaultSchema(name = "User")
 data class UserPreferences(
