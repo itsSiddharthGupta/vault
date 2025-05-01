@@ -1,0 +1,69 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+# Java/Kotlin source files
+*.java          text diff=java
+*.kt            text diff=kotlin
+*.kts           text diff=kotlin
+*.gradle        text diff=gradle
+*.gradle.kts    text diff=gradle
+
+# Android
+*.xml           text
+*.yaml          text
+*.yml           text
+*.toml          text
+*.json          text
+*.properties    text
+*.proto         text
+
+# Documentation
+*.md            text diff=markdown
+*.txt           text
+*.doc           diff=astextplain
+*.DOC           diff=astextplain
+*.docx          diff=astextplain
+*.DOCX          diff=astextplain
+*.pdf           diff=astextplain
+*.PDF           diff=astextplain
+
+# Graphics
+*.png           binary
+*.jpg           binary
+*.gif           binary
+*.ico           binary
+*.svg           text
+*.webp          binary
+
+# Media files
+*.mp4           binary
+*.m4a           binary
+*.mp3           binary
+*.aac           binary
+*.wav           binary
+
+# Android resource files
+*.webm          binary
+*.ttf           binary
+*.otf           binary
+*.eot           binary
+*.woff          binary
+*.woff2         binary
+
+# Executables
+*.exe           binary
+*.dll           binary
+*.so            binary
+*.dylib         binary
+
+# Gradle wrapper
+gradlew         text eol=lf
+*.bat           text eol=crlf
+
+# Avoid conflicts in generated files
+*.pb.go         -diff -merge
+*.pb.cc         -diff -merge
+*.pb.h          -diff -merge
+*.gen.java      -diff -merge
+*.generated.java -diff -merge 

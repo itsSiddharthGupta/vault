@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SmellBaseline>
+  <ManuallySuppressedIssues>
+    <!-- Add suppressed issues here manually if needed -->
+  </ManuallySuppressedIssues>
+  <CurrentIssues>
+    <!-- Issues detected but accepted for now -->
+  </CurrentIssues>
+</SmellBaseline>
